@@ -41,10 +41,10 @@ namespace CustomMenu::Quotes {
         std::string path = Constants::QuotePath;
         if (!std::filesystem::exists(path)) {
             std::ofstream file(path);
-            file << "Quote 1\n";
-            file << "Quote 2\n";
-            file << "Quote 3\n";
-            file << "Quote 4\n";
+            file << "sub to JadenEdits\n";
+            file << "sub to BlokzVR\n";
+            file << "get a fc today\n";
+            file << "C-C-COMBO BREAKER\n";
             file.close();
         }
     }
